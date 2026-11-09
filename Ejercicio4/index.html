@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <h1>Mi lista de tareas</h1>
+
+        <form onsubmit="agregarTarea(event)">
+
+            <label>Escribe una tarea:</label>
+
+            <input type="text" id="tarea">
+
+            <button type="submit">Agregar tarea</button>
+
+        </form>
+
+        <h2>Tareas pendientes</h2>
+
+        <ul id="listaTareas"></ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

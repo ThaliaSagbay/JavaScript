@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+/* Recuadro centrado */
+.contenedor {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Campos y botones */
+form {
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin: 20px;
+}
+
+/* Lista de tareas */
+ul {
+    width: 350px;
+    margin: auto;
+}
+
+li {
+    text-align: left;
+    padding: 8px;
+}
+
+li input {
+    margin-right: 10px;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
